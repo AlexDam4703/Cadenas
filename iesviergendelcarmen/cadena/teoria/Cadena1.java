@@ -21,7 +21,9 @@ public class Cadena1 {
 		String cadena4 = "hola mundo desde programacion java";
 		String [] cadenaDividida = cadena4.split(" ");
 		System.out.println(Arrays.toString(cadenaDividida));
-		
+		//Lo sigiente se usa para dar formato a un string por partes, funciona de la misma forma que el pintf
+		String outputCadena = String.format("%d/%s/%d",17,"enero",2018);
+		System.out.println(outputCadena);
 	}
 
 }
